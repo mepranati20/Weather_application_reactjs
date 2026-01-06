@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 
-const API_KEY = "ebf3aec2efb3b7828db749f2aa3469e2"; // 🔴 put your key here
+const API_KEY = "ebf3aec2efb3b7828db749f2aa3469e2"; 
 
 function App() {
   const [city, setCity] = useState("");
@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>🌤 Weather App</h1>
+      <h1>Weather App</h1>
 
       <div className="search">
         <input
